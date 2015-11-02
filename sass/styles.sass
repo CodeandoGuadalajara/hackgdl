@@ -1,0 +1,101 @@
+@import compass
+@import compass/reset
+@import jeet/index
+@import _fonts
+@import _units
+@import _base
+
+.navbar
+	height: 185px
+	background: $blue
+	position: relative
+
+	.menu
+		position: absolute
+		top: 75px
+		right: 80px
+		li
+			margin-right: 10px
+			padding: 10px
+			font-size: 1.2em
+			color: white
+			text-transform: uppercase
+			&:hover
+				background: #1D9BC4
+.registro
+	margin-top: $space/2
+	h1
+		text-transform: uppercase
+		text-align: center
+	img
+		min-width: 100%
+		
+.registro .eventbrite
+	margin-top: $space/2
+
+.info
+	background: $blue
+	color: white
+	h1
+		text-transform: uppercase
+		padding-top: $space
+		text-align: center
+	h2
+		text-align: center
+		padding-top: $space/2
+	p
+		padding-top: $space
+		line-height: 150%
+		font-size: 1.4em
+
+	.quarter
+		margin-top: $space/2
+		margin-bottom: $space
+		text-align: center
+		h3
+			margin-top: $space/2
+			font-weight: 800
+		p
+			font-size: 1.3em
+			padding-top: $space/3
+
+
+.recursos
+	h1
+		text-transform: uppercase
+		padding-top: $space
+		text-align: center
+	h2
+		text-align: center
+		padding-top: $space/2
+	.wrapper
+		h3
+			padding-top: $space
+		.recurso
+			text-align: center
+			margin-top: $space/2
+		.recurso p
+			margin-top: $space/3
+		.fa-file-pdf-o
+			color: $gray
+
+.contacto
+	background: $blue
+	color: white
+	text-align: center
+	padding: $space
+	h2
+		margin-top: $space/2
+	a
+		color: white
+.partners
+	text-align: center
+	padding: $space	
+	.third
+		margin-top: $space/2
+	h2
+		margin-top: $space/2
+		margin-bottom: $space/2
+
+@import _responsive
+
